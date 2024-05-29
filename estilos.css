@@ -1,0 +1,158 @@
+*{
+    --color1: #532516;
+    --color2: #F17D04;
+    --color3: #E2361A;
+    --color4: #E60000;
+    --color5: #FFC700;
+}
+body{
+    margin:0px;
+    padding:0px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ramabhadra", sans-serif;;
+}
+#MenuPrincipal{ 
+    display: flex;
+    align-items: center;
+    background-color: var(--color4);
+    font-size: 14px;
+}
+#menu>ul{
+    display:flex;
+    margin: 30px;
+    list-style-type: none; 
+    margin-top: 10px ;
+}
+#menu a{
+    padding: 5px 80px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    justify-content:space-evenly; 
+}
+#menu a:hover{
+    background-color: white;
+    color: black;
+}
+#logo{
+    display: flex;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+#botones01{
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+}
+#botones01:hover{
+    background-color: white;
+    color: black;
+}
+#botones02{
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: black;
+}
+#botones02:hover{
+    background-color: white;
+}
+#Contenido{
+    margin: 30px;
+}
+#Contenido h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+#Contenido p{
+    color: white;
+    text-align: center;
+}
+.Botones{
+    text-align: center;
+    padding: 6px 15px;
+    margin: 50px 170px;
+    border-radius: 20px;
+    background-color: var(--color3);
+    font-size: 15px;
+}
+.Botones:hover{
+    background-color: grey;
+}
+#Contenido a{
+    text-decoration: none;
+    color: white; 
+}
+#Bloque01{
+    display:flex;
+    justify-content: center;
+    margin: 30px;
+}
+#Letra01{
+    width: 500px;
+    background-color: var(--color1);
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 40px;
+}
+#Bloque02{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 25px;
+}
+#Letra02{
+    width: 500px;
+    background-color: var(--color2);
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 10px;
+    
+}
+.Imagen1{
+    display: flex;
+    width: 500px;
+    height: 480px ;
+}
+.Imagen{
+    display: flex;
+    width: 500px;
+    height: 480px ;
+}
+#Secundario{
+    border: 1px solid var(--color4);
+    background-color: var(--color4);
+    font-size: 15px;
+}
+#Secundario>ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+#Secundario a{
+    text-decoration: none;
+    color:white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+#Secundario a:hover{
+    background-color: white;
+    color: black;
+}
+#Pie{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: white;
+}
+hr{
+    border: 0.5px solid ;
+    color: white;
+    margin: 3px;
+}
+
